@@ -1,0 +1,26 @@
+http://localhost:3000/
+
+POST: http://localhost:3000/staffs
+SampleData;
+{
+    "id":1,
+    "name":"staff1",
+    "email":"staff1@gmail.com"
+}
+
+GET :http://localhost:3000/staffs
+
+POST:http://localhost:3000/students
+SampleData:
+{
+    "id":1,
+    "name":"student1",
+    "email":"student1@gmail.com",
+    "staff_id":1
+
+}
+
+GET:http://localhost:3000/allStaff
+
+PUT: http://localhost:3000/students/:"id"
+DELETE:http://localhost:3000/studentID/:"id"
